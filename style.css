@@ -6,16 +6,36 @@
 * {
   margin: 0px;
   padding: 0px;
-}
-
-.titel {
   font-family: "Kramood", Arial, Helvetica, sans-serif;
-  font-size: 100px;
-  text-align: center;
-  outline-style: solid;
 }
 
-.blurry {
+.nav {
+  font-size: 50px;
+  text-align: center;
+  background-color: red;
+  display: flex;
+}
+
+.nav a {
+  float: left;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav a:hover {
+  background-color: darkred;
+}
+
+.dropdown-button a:hover {
+  background-color: darkred;
+}
+
+.hidden {
+  display: none;
+}
+
+.snoop .blurry {
   filter: blur(8px);
 }
 
@@ -32,7 +52,6 @@
 }
 
 .footer {
-  font-family: "Kramood", Arial, Helvetica, sans-serif;
   font-size: 70px;
   text-align: center;
   outline-style: solid;
