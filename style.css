@@ -31,8 +31,12 @@
   background-color: darkred;
 }
 
-.hidden {
+.dropdown-content {
   display: none;
+}
+
+.dropdown-content {
+  display: inline;
 }
 
 .snoop .blurry {
