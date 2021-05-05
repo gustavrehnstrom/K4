@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>EgenSida</title>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+                <a href="index.html">Hem</a>
+                <div class="dropdown">
+                  <button class="dropdown-button" animation="slideDown">Meny</button>
+                  <div class="dropdown-content">
+                    <a href="#about-me" class="higher-popup">Om mig</a>
+                    <a href="#cv">CV</a>
+                    <a href="photogallery.html">Fotogalleri</a>
+                    <a href="#food" class="lower-popup">Mat</a>
+                  </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="slideshow"><p>Fotogalleri</p>
+                <div class="my-slides">
+                    <img src="snoop.jpg" alt="bild på snoop dogg" width="50%">
+                    <div class="slides-text">Snoop Dogg 1/3</div>
+                </div>
+
+                <div class="my-slides">
+                    <img src="snoop.jpg" alt="bild på snoop dogg" width="50%">
+                    <div class="slides-text">Snoop Dogg 2/3</div>
+                </div>
+
+                <div class="my-slides">
+                    <img src="snoop.jpg" alt="bild på snoop dogg" width="50%">
+                    <div class="slides-text">Snoop Dogg 2/3</div>
+                </div>
+
+                <a class="next" onclick=""><p>Next</p></a>
+                <a class="previous" onclick=""><p>Previous</p></a>
+            </div>
+        </main>
+
+        <footer>
+            <p class="footer">Gustav Rehnström | 2021</p>
+        </footer>
+</body>
+</html>
