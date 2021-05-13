@@ -197,3 +197,21 @@ button {
   border-radius: 10px;
   padding: 10px;
 }
+
+.main-about {
+  display: flex;
+}
+
+.div1 {
+  margin: 10px;
+}
+
+.div2 {
+  margin: 10px;
+}
+
+.background {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
